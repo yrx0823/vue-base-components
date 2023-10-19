@@ -1,6 +1,7 @@
 <template>
   <div>
     <a :href="link">{{ text }}</a>
+    <el-button type="primary" plain>fdsf</el-button>
   </div>
 </template>
 
@@ -15,6 +16,14 @@ export default {
     text: {
       type: String,
       default: ''
+    }
+  },
+  data() {
+    return {
+      test: {
+        a: '1',
+        b: '2'
+      }
     }
   }
 }

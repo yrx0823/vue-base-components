@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <el-base-table link="https://baidu.com" text="click me"></el-base-table>
+    <demo-el-base-table></demo-el-base-table>
   </div>
 </template>
 
 <script>
-import ElBaseTable from './examples/el-base-table/index.vue'
+import demoElBaseTable from './examples/demo-el-table-table.vue'
 export default {
   name: 'App',
   components: {
-    ElBaseTable
+    demoElBaseTable
   }
 }
 </script>
